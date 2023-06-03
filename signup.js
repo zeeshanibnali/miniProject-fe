@@ -7,18 +7,23 @@ const register = () => {
 
   if (!name.value) {
     alert("Please enter the name");
+    return;
   }
   if (!email.value) {
     alert("Please enter the name");
+    return;
   }
   if (!password.value) {
     alert("Please enter the name");
+    return;
   }
   if (!passwordRepeat.value) {
     alert("Please enter the name");
+    return;
   }
   if (password.value !== passwordRepeat.value) {
     alert("Your passwords don't match");
+    return;
   }
 
   let data = {

@@ -5,9 +5,11 @@ const login = () => {
 
   if (!email.value) {
     alert("Please enter the Email");
+    return;
   }
   if (!password.value) {
     alert("Please enter the password");
+    return;
   }
 
   let data = {
